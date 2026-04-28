@@ -1,1 +1,1 @@
-# intro-to-java-exercises
+This repo contains solutions to all exercises in the book Introduction to Java Programming and Data Structures, Comprehensive Version 12e.
