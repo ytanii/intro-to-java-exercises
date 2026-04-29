@@ -6,5 +6,9 @@
 
 .md-typeset strong,
 .md-typeset b {
-    color: var(--md-primary-fg-color);  /* uses your teal */
+    color: var(--md-primary-fg-color);
+}
+
+.md-header__button.md-logo{
+    display: none;
 }
