@@ -1,0 +1,10 @@
+:root > * {
+    --md-primary-fg-color:        #007175;
+    --md-primary-fg-color--light: #4DA5A8;
+    --md-primary-fg-color--dark:  #004A4D;
+}
+
+.md-typeset strong,
+.md-typeset b {
+    color: var(--md-primary-fg-color);  /* uses your teal */
+}
