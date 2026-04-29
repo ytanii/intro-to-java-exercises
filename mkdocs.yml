@@ -1,3 +1,63 @@
 site_name: Intro to Java Exercises
 theme:
   name: material
+  palette:
+    primary: custom
+  features:
+    - content.code.copy
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ytanii
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:yusuf.taniyici@icloud.com
+
+
+nav:
+  - Home: index.md
+  - Chapter 1:
+      - Overview: chapter-01/index.md
+      - 1.1 Display Three: chapter-01/1.1-display-three.md
+      - 1.2 Display Five: chapter-01/1.2-display-five.md
+      - 1.3 Display Pattern: chapter-01/1.3-display-pattern.md
+      - 1.4 Print Table: chapter-01/1.4-print-table.md
+      - 1.5 Compute Expressions: chapter-01/1.5-compute-expressions.md
+      - 1.6 Summation Series: chapter-01/1.6-summation-series.md
+      - 1.7 Approximate Pi: chapter-01/1.7-approximate-pi.md
+      - 1.8 Area & Perimeter (Circle): chapter-01/1.8-area-and-perimeter-circle.md
+      - 1.9 Area & Perimeter (Rectangle): chapter-01/1.9-area-and-perimeter-rectangle.md
+      - 1.10 Average Speed: chapter-01/1.10-average-speed.md
+      - 1.11 Population Projection: chapter-01/1.11-population-projection.md
+      - 1.12 Average Speed (km): chapter-01/1.12-average-speed-kilometers.md
+      - 1.13 Linear Equations: chapter-01/1.13-linear-equations.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      base_path:
+        - .
+      check_paths: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.inlinehilite
+
+
+watch:
+  - docs
+  - docs/chapter-01
+  - chapter-01
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - stylesheets/extra.css
+
